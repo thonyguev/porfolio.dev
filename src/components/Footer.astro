@@ -1,5 +1,5 @@
 ---
-const currentYear = new Date().getFullYear()
+const currentYear = new Date().getFullYear();
 ---
 
 <footer
@@ -8,20 +8,35 @@ const currentYear = new Date().getFullYear()
   <div
     class="rounded-lg w-full max-w-screen-xl mx-auto md:flex md:items-center md:justify-between py-4"
   >
-    <span class="text-sm sm:text-center text-zinc-800/90 dark:text-zinc-200/90"
+    <span class="text-sm sm:text-center"
       >© {currentYear}
-      <a href="https://midu.dev/" class="hover:underline">midudev</a>. Casi
-      todos los derechos reservados
+      <a href="#" class="hover:underline mr-3"
+        >manucode.</a
+      >
+      Powered by <a
+        href="https://midu.dev/"
+        class="hover:underline"
+        target="_blank"
+        rel="noopener noreferrer">midudev_template</a
+      >
     </span>
     <ul
-      class="flex flex-wrap items-center mt-3 text-sm font-medium dark:text-white/90 sm:mt-0"
+      class="flex flex-wrap items-center mt-3 text-sm font-medium sm:mt-0 gap-6"
     >
       <li>
-        <a href="/#sobre-mi" class="hover:underline me-4 md:me-6">Sobre mí</a>
+        <a href="/#sobre-mi" class="hover:underline">Sobre mí</a>
       </li>
       <li>
-        <a id="contacto" href="mailto:miduga@gmail.com" class="hover:underline"
+        <a id="contacto" href="mailto:work-portafolio.outplayed590@passinbox.com" class="hover:underline"
           >Contacto</a
+        >
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/thonyguev"
+          class="hover:underline">GitHub</a
         >
       </li>
     </ul>

@@ -1,21 +1,4 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  stroke-width="2"
-  stroke="currentColor"
-  fill="none"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
-    d="M7 8l-4 4l4 4"></path><path d="M17 8l4 4l-4 4"></path><path
-    d="M14 4l-4 16"></path>
-    <style>
-        svg { color: #000; }
-        @media (prefers-color-scheme: dark) {
-            svg { color: #FFF; }
-        }
-    </style>
-    </svg
->
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="512" height="512" fill="black" style="fill:black;fill-opacity:1;"/>
+<path d="M163 326.375V315.969H215.031V326.375H163ZM163 347.188V336.781H215.031V347.188H163ZM163 368V357.594H215.031V368H163ZM342.797 128.801H353.492L286.43 396.039H275.734L342.797 128.801ZM321.117 128.801H331.957L264.895 396.039H254.199L321.117 128.801ZM299.438 128.801H310.277L243.359 396.039H232.52L299.438 128.801Z" fill="#00FF1A" style="fill:#00FF1A;fill:color(display-p3 0.0000 1.0000 0.1000);fill-opacity:1;"/>
+</svg>

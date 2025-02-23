@@ -1,5 +1,6 @@
 ---
 import { ModeToggle } from "./ThemeToggle.tsx";
+import { MenuHeaderMobile } from "./MenuHeader";
 
 const navItems = [
   {
@@ -25,8 +26,9 @@ const navItems = [
 ];
 ---
 
+<MenuHeaderMobile navItems={navItems} client:load />
 <header
-  class="fixed top-0 z-10 flex items-center justify-center w-full mx-auto mt-2"
+  class="hidden fixed top-0 z-10 md:flex items-center justify-center w-full mx-auto mt-2"
 >
   <nav
     class="flex px-3 text-sm font-medium rounded-full justify-center items-center backdrop-blur-sm bg-background/65"
